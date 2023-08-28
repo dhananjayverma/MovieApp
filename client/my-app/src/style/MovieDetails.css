@@ -1,0 +1,52 @@
+/* MovieDetails.css */
+
+.movie-details {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.moviePoster {
+  max-width: 300px;
+  height: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  flex: 0 0 auto;
+}
+
+.movie-content {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.favoriteButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.favoriteButton:hover {
+  background-color: #0056b3;
+}
+
+.goToFavorites {
+  color: #007bff;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.goToFavorites:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}

@@ -1,0 +1,58 @@
+/* Favorites.css */
+
+.favorites-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+  
+  .favorites-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .no-favorites {
+    font-style: italic;
+  }
+  
+  .favorites-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .favorite-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .movie-poster {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .movie-title {
+    font-weight: bold;
+  }
+  
+  .remove-button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
